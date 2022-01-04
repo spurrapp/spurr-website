@@ -1,6 +1,6 @@
 .hero {
 	text-align: center;
-    padding-top: 40px;
+    padding-top: 24px;
 }
 
 .hero-paragraph {
@@ -25,6 +25,13 @@
 .hero-illustration {
 	position: relative;
     margin-top: 48px;
+}
+
+.hero-video {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 32px;
+	height: 320px;
 }
 
 .hero-shape {
@@ -54,7 +61,8 @@
 
 	.hero-copy {
 		padding-right: 48px;
-		min-width: 512px;
+		padding-top: 80px;
+		min-width: 384px;
 	}
 
 	.hero-form {
@@ -87,12 +95,29 @@
 			height: 647px;
 		}
 	}
+
+	.hero-video {
+		position: relative;
+		margin: 0 auto;
+		padding-top: 32px;
+		height: 320px;
+		width: 580px;
+	}
 }
 
 @include media( '>large' ) {
 
     .hero-copy {
         padding-right: 92px;
-        min-width: 620px;
+		padding-top: 80px;
+        min-width: 512px;
     }
+
+	.hero-video {
+		position: relative;
+		margin: 0 auto;
+		padding-top: 32px;
+		height: 360px;
+		width: 640px;
+	}
 }
