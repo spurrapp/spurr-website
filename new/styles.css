@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    background-color: #ffffff;
+}
+
+.gradient-bg {
+    height: 712px;
+    z-index: -1;
+    background: linear-gradient(222.84deg, #080A52 24.06%, #EB2188 99.99%);
+}
+
+#logo-header {
+    padding: 80px 0px 40px 0px;
+}
+
+#install-col {
+    padding-top: 64px;
+}
+
+.slack-button {
+    margin: 32px 0px 120px 0px;
+}
+
+#screenshot-2 {
+    width: 888px;
+    padding: 48px 0 48px 0;
+}
+
+#screenshot-3 {
+    padding: 48px 0 48px 0;
+}
+
+#screenshot-4 {
+    width: 640px;
+    padding: 48px 0 48px 0;
+}
+
+#gradient-bg-2 {
+    height: 550px;
+}
+
+.top-padding {
+    padding-top: 85px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #080A52;
+    line-height: 34px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 3px solid #DDDDDD;
+}
+
+.subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 140%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    /* gray 1 */
+    color: #9393A8;
+    padding: 0px 24px 0px 24px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.white-text-80 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer section {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+footer section p {
+    margin-bottom: 2rem;
+    color: #9393A8;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+    #screenshot-1 {
+        max-width: 500px;
+        padding-top: 40px;
+    }
+
+    #screenshot-3 {
+        max-width: 500px;
+    }
+
+    .gradient-bg {
+        height: 800px;
+    }
+    
+    .subtitle {
+        max-width: 480px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}

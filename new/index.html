@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <div class="container-fluid px-0">
+        
+            <div class="col text-center">
+                <div class="gradient-bg position-absolute w-100"></div>
+                <img class="mt-5" id="logo-header" src="./resources/img/spurr_logo.svg" alt="Spurr logo">
+                <h3 class="m-3">Cooperative challenges for your Slack workspace</h3>
+                <img class="img-fluid mt-2" id="screenshot-1" src="./resources/img/spurr_screenshot_1@2x.png" alt="Spurr Screenshot">
+            </div>
+            
+            <div class="col text-center" id="install-col">
+                <h1>Try it now for free</h1>
+                <p class="subtitle">Admin rights not required</p>
+
+                <a class="slack-button" href="https://api.spurrapp.com/slack/install" style="align-items:center;color:#fff;background-color:#4A154B;border:0;border-radius:4px;display:inline-flex;font-family:Lato, sans-serif;font-size:16px;font-weight:600;height:48px;justify-content:center;text-decoration:none;width:236px"><svg xmlns="http://www.w3.org/2000/svg" style="height:20px;width:20px;margin-right:12px" viewBox="0 0 122.8 122.8"><path d="M25.8 77.6c0 7.1-5.8 12.9-12.9 12.9S0 84.7 0 77.6s5.8-12.9 12.9-12.9h12.9v12.9zm6.5 0c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v32.3c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9V77.6z" fill="#e01e5a"></path><path d="M45.2 25.8c-7.1 0-12.9-5.8-12.9-12.9S38.1 0 45.2 0s12.9 5.8 12.9 12.9v12.9H45.2zm0 6.5c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H12.9C5.8 58.1 0 52.3 0 45.2s5.8-12.9 12.9-12.9h32.3z" fill="#36c5f0"></path><path d="M97 45.2c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9-5.8 12.9-12.9 12.9H97V45.2zm-6.5 0c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9V12.9C64.7 5.8 70.5 0 77.6 0s12.9 5.8 12.9 12.9v32.3z" fill="#2eb67d"></path><path d="M77.6 97c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9-12.9-5.8-12.9-12.9V97h12.9zm0-6.5c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9h32.3c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H77.6z" fill="#ecb22e"></path></svg>Add to Slack</a>
+            </div>
+
+            <div class="col text-center">
+                <div class="gradient-bg position-absolute w-100" id="gradient-bg-2"></div>
+                <h1 class="white-text top-padding">Not just fitness</h1>
+                <p class="subtitle white-text-80">Choose the right challenge for your team from our templates. From business to personal developement or fitness.</p>
+                <img id="screenshot-2" src="./resources/img/spurr_screenshot_2@2x.png" alt="Spurr Screenshot">
+            </div>
+
+            <div class="col text-center">
+                <h1 class="top-padding">Or unleash your creativity…</h1>
+                <p class="subtitle">…and design your own challenge</p>
+                <img class="img-fluid" id="screenshot-3" src="./resources/img/spurr_screenshot_3@2x.png" alt="Spurr Screenshot">
+            </div>
+
+            <div class="col text-center">
+                <div class="gradient-bg position-absolute w-100" id="gradient-bg-2"></div>
+                <h1 class="white-text top-padding">Cooperative, yet competitive</h1>
+                <p class="subtitle white-text-80">Engage your whole team in a cooperative challenge to boost its productivity and spirit. Ideal for remote teams.</p>
+                <img id="screenshot-4" src="./resources/img/spurr_screenshot_4@2x.png" alt="Spurr Screenshot">
+            </div>
+
+            <div class="col text-center" id="install-col">
+                <h1>Create a challenge now</h1>
+                <p class="subtitle">Unlimited amount of free challenge with up to 8 participants.</p>
+
+                <a class="slack-button" href="https://api.spurrapp.com/slack/install" style="align-items:center;color:#000;background-color:#fff;border:1px solid #ddd;border-radius:4px;display:inline-flex;font-family:Lato, sans-serif;font-size:16px;font-weight:600;height:48px;justify-content:center;text-decoration:none;width:236px"><svg xmlns="http://www.w3.org/2000/svg" style="height:20px;width:20px;margin-right:12px" viewBox="0 0 122.8 122.8"><path d="M25.8 77.6c0 7.1-5.8 12.9-12.9 12.9S0 84.7 0 77.6s5.8-12.9 12.9-12.9h12.9v12.9zm6.5 0c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v32.3c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9V77.6z" fill="#e01e5a"></path><path d="M45.2 25.8c-7.1 0-12.9-5.8-12.9-12.9S38.1 0 45.2 0s12.9 5.8 12.9 12.9v12.9H45.2zm0 6.5c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H12.9C5.8 58.1 0 52.3 0 45.2s5.8-12.9 12.9-12.9h32.3z" fill="#36c5f0"></path><path d="M97 45.2c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9-5.8 12.9-12.9 12.9H97V45.2zm-6.5 0c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9V12.9C64.7 5.8 70.5 0 77.6 0s12.9 5.8 12.9 12.9v32.3z" fill="#2eb67d"></path><path d="M77.6 97c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9-12.9-5.8-12.9-12.9V97h12.9zm0-6.5c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9h32.3c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H77.6z" fill="#ecb22e"></path></svg>Add to Slack</a>
+            </div>
+
+        <hr />
+        <footer class="text-center">
+            <section>
+                <p>
+                    <a href="#!" class="text-reset">FAQs</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Legal stuff</a>
+                  </p>
+            </section>
+            
+            <div class="col" style="background-color: #FAFAFA;height: 106px;">
+                <span style="color: #080A52;line-height: 106px;">Created with</span>
+                <img style="padding: 0px 4px 0px 4px;" src="./resources/img/love.svg" alt="love" />
+                <span style="color: #080A52;line-height: 106px;">in Czechia & Ireland</span>
+            </div>
+        
+        </footer>
+
+    </div>
+
+    
+  </body>
+</html>
