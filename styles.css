@@ -21,6 +21,14 @@ a:hover {
     color: #ffffff;
 }
 
+.dark a {
+    color: #EB2188;
+}
+
+.dark a:hover {
+    color: #9F2764;
+}
+
 .gradient-bg {
     height: 712px;
     z-index: -1;
@@ -31,6 +39,10 @@ a:hover {
     height: 280px;
     z-index: -1;
     background: linear-gradient(222.84deg, #080A52 24.06%, #EB2188 99.99%);
+}
+
+#faq-content {
+    max-width: 100%;
 }
 
 #logo-header {
@@ -74,6 +86,16 @@ a:hover {
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
+    font-weight: bold;
+    color: #080A52;
+    line-height: 34px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     font-weight: bold;
     color: #080A52;
     line-height: 34px;
@@ -151,6 +173,17 @@ footer section p {
     #contact-us {
         height: 230px;
     }
+
+    #faq-content {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    #legal {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+    
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */

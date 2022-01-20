@@ -3,14 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>spurr</title>
-	<link rel="icon" type="image/png" href="/dist/images/favicon.png" />
-	<link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
-	<link rel="stylesheet" href="dist/css/style.css">
-	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
-	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Spurr · FAQ</title>
+	
+	<!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7KQ83K3KS"></script>
 	<script>
@@ -22,90 +22,60 @@
 	</script>
 </head>
 
-<body class="is-boxed has-animations">
-	<div class="body-wrap boxed-container">
-		<div class="text-wall">
+<body class="container-fluid">
+	
+	<div class="col p-4 dark" id="faq-content">
+	
+		<h1>Frequently Asked Questions</h2>
+	
+		<h2>What is Spurr?</h2>
+		<p>Do you want to be more active but lack the motivation? Spurr makes it more fun by creating a common goal for a whole team. For example, you can create a challenge to do 1,000 pushups in 7 days together. Get statistics and count everyone's contributions towards your common goal.</p>
 		
-			<h2>Frequently Asked Questions</h2>
-		
-			<h3>What is Spurr?</h3>
-			<p>Do you want to be more active but lack the motivation? Spurr makes it more fun by creating a common goal for a whole team. For example, you can create a challenge to do 1,000 pushups in 7 days together. Get statistics and count everyone's contributions towards your common goal.</p>
-			
-			<h3>How can start using Spurr?</h3>
-			<p>Spurr is a Slack app, so the only way to use it is to connect it to your Slack workspace. You can do so directly on <a href="https://spurrapp.com">spurrapp.com</a> by clicking on the 'Add to Slack' button.</p>
+		<h2>How can start using Spurr?</h2>
+		<p>Spurr is a Slack app, so the only way to use it is to connect it to your Slack workspace. You can do so directly on <a href="https://spurrapp.com">spurrapp.com</a> by clicking on the 'Add to Slack' button.</p>
 
-			<h3>Is Spurr free?</h3>
-			<p>Yes, you can create challenges with up to 8 participants completely for free. <br /><br /> For bigger teams there currently are 2 paid plans:  $19/mo ($189/y) for challenges up to 20 participants and $39/mo ($380/y) for challenges up to 40 participants. If you have specific needs we offer also enterprise plan. For more information please email <a href="mailto:hello@spurrapp.com">hello@spurrapp.com</a>.</p>
+		<h2>Is Spurr free?</h2>
+		<p>Yes, you can create challenges with up to 8 participants completely for free. <br /><br /> For bigger teams there currently are 2 paid plans:  $19/mo ($189/y) for challenges up to 20 participants and $39/mo ($380/y) for challenges up to 40 participants. If you have specific needs we offer also enterprise plan. For more information please email <a href="mailto:hello@spurrapp.com">hello@spurrapp.com</a>.</p>
 
-			<h3>What kind of challenges can I do?</h3>
-			<p>That's completely up to you, but here are some ideas:</p>
-			<ol type="a">
-				<li>Walk 1,000,000 steps together in a week.</li>
-				<li>Do 1,000 push ups in 10 days.</li>
-				<li>Do 5,000 squats in 10 days.</li>
-				<li>100 cigarette-free days.</li>
-				<li>50 coffee-free days.</li>
-				<li>Read 5,000 pages in two weeks.</li>
-				<li>Run 500 km in a month.</li>
-			</ol>
+		<h2>What kind of challenges can I do?</h2>
+		<p>That's completely up to you, but here are some ideas:</p>
+		<ol type="a">
+			<li>Walk 1,000,000 steps together in a week.</li>
+			<li>Do 1,000 push ups in 10 days.</li>
+			<li>Do 5,000 squats in 10 days.</li>
+			<li>100 cigarette-free days.</li>
+			<li>50 coffee-free days.</li>
+			<li>Read 5,000 pages in two weeks.</li>
+			<li>Run 500 km in a month.</li>
+		</ol>
 
-			<p>The goal depends on your team size, but it should always be challenging. We recommend creating shorter challenges (1-2 weeks long) as they tend to be more engaging – but it's entirely up to you and your team.</p>
-		</div>
-
-		<section class="newsletter section text-light">
-			<div class="container-sm">
-				<div class="newsletter-inner section-inner">
-					<div class="newsletter-header text-center">
-						<h2 class="section-title mt-0">Install now.</h2>
-						<p class="section-paragraph">Create challenges for your Slack team.</p>
-					</div>
-					<div class="footer-form newsletter-form field field-grouped">
-						<div class="control">
-							<a
-								href="https://api.spurrapp.com/slack/install"><img
-								alt="Add to Slack" height="40" width="139"
-								src="https://platform.slack-edge.com/img/add_to_slack.png"
-								srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"
-								class="footer-button"
-							></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="newsletter section text-light">
-			<div class="container-sm">
-				<div class="newsletter-inner section-inner">
-					<div class="newsletter-header text-center">
-						<h2 class="section-title mt-0">Need help?</h2>
-						<p class="section-paragraph">Contact us at <a href="mailto:spurrapp@gmail.com">spurrapp@gmail.com</a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<footer class="site-footer">
-			<div class="container">
-				<div class="site-footer-inner has-top-divider">
-					<ul class="footer-links list-reset">
-						<li>
-							<a href="/">Home</a>
-						</li>
-						<li>
-							<a href="/faq">FAQ</a>
-						</li>
-						<li>
-							<a href="/legal">Legal</a>
-						</li>
-					</ul>
-					<div class="footer-copyright">&copy; 2021, all rights reserved</div>
-				</div>
-			</div>
-		</footer>
+		<p>The goal depends on your team size, but it should always be challenging. We recommend creating shorter challenges (1-2 weeks long) as they tend to be more engaging – but it's entirely up to you and your team.</p>
 	</div>
 
-	<script src="dist/js/main.min.js"></script>
+	<div class="col text-center" id="contact-us">
+			
+		<h1 class="white-text top-padding">Still have a question?</h1>
+		<p class="subtitle white-text-80">Happy to help! Just reach out to us at <a href="mailto:hello@spurrapp.com">hello@spurrapp.com</a>.</p>
+	</div>
+
+	<footer class="text-center">
+		<section>
+			<p>
+				<a href="index.html" class="text-reset">Home</a>
+				</p>
+				<p>
+				<a href="legal.html" class="text-reset">Legal stuff</a>
+				</p>
+		</section>
+		
+		<div class="col" style="background-color: #FAFAFA;height: 106px;">
+			<span style="color: #080A52;line-height: 106px;">Created with</span>
+			<img style="padding: 0px 4px 0px 4px;" src="./resources/img/love.svg" alt="love" />
+			<span style="color: #080A52;line-height: 106px;">in Czechia & Ireland</span>
+		</div>
+	
+	</footer>
+	
 </body>
 
 </html>
