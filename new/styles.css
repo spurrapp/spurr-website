@@ -31,6 +31,10 @@ body {
     margin: 32px 0px 120px 0px;
 }
 
+.no-overflow {
+    overflow: hidden;
+}
+
 #screenshot-2 {
     width: 888px;
     padding: 48px 0 48px 0;
