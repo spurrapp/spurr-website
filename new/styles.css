@@ -13,8 +13,22 @@ body {
     background-color: #ffffff;
 }
 
+a {
+    color: #DDDDDD;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 .gradient-bg {
     height: 712px;
+    z-index: -1;
+    background: linear-gradient(222.84deg, #080A52 24.06%, #EB2188 99.99%);
+}
+
+#contact-us {
+    height: 280px;
     z-index: -1;
     background: linear-gradient(222.84deg, #080A52 24.06%, #EB2188 99.99%);
 }
@@ -132,6 +146,10 @@ footer section p {
     
     .subtitle {
         max-width: 480px;
+    }
+    
+    #contact-us {
+        height: 230px;
     }
 }
  
