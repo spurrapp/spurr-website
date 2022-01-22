@@ -63,7 +63,7 @@ a:hover {
 }
 
 #screenshot-2 {
-    width: 888px;
+    /* width: 888px; */
     padding: 48px 0 48px 0;
 }
 
@@ -168,7 +168,7 @@ footer section p {
     }
 
     .gradient-bg {
-        height: 800px;
+        height: 700px;
     }
     
     .subtitle {
