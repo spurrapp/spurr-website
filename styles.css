@@ -11,6 +11,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     background-color: #ffffff;
+    font-display: swap;
 }
 
 a {
@@ -91,6 +92,7 @@ h1 {
     line-height: 34px;
     padding-bottom: 4px;
     margin-bottom: 0px;
+    font-display: swap;
 }
 
 h2 {
@@ -101,6 +103,7 @@ h2 {
     line-height: 34px;
     padding-bottom: 4px;
     margin-bottom: 0px;
+    font-display: swap;
 }
 
 h3 {
@@ -109,6 +112,7 @@ h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
+    font-display: swap;
 }
 
 hr {
@@ -130,6 +134,7 @@ hr {
     padding: 0px 24px 0px 24px;
     max-width: 340px;
     margin: 0 auto;
+    font-display: swap;
 }
 
 .white-text {
