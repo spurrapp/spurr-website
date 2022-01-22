@@ -31,7 +31,7 @@ a:hover {
 }
 
 .gradient-bg {
-    height: 712px;
+    height: 650px;
     z-index: -1;
     background: linear-gradient(222.84deg, #080A52 24.06%, #EB2188 99.99%);
 }
