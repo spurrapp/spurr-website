@@ -137,6 +137,14 @@ hr {
     font-display: swap;
 }
 
+.color-gray-2 {
+    color: #525267;
+}
+
+.color-primary-pink {
+    color: #EB2188;
+}
+
 .white-text {
     color: #ffffff;
 }
@@ -155,6 +163,15 @@ footer section p {
     color: #525267;
 }
 
+
+.card {
+    border-radius: 1rem;
+    border: none;
+}
+
+.card li {
+    margin-top: 8px;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
